@@ -12,18 +12,18 @@ public class Calcuator {
         return a*b;
     }
 
-    int mang () {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập số phần từ mảng");
-        int n =sc.nextInt();
-        int arr [];
-        arr = new arr[n];
-        for (int i = 0; i <n;i++){
-            System.out.print("Nhập phần tử thứ " +i+ ": ");
-            arr[i] =sc.nextInt();
-        }
-        return arr;
-    }
+//    int mang () {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Nhập số phần từ mảng");
+//        int n =sc.nextInt();
+//        int arr [];
+//        arr = new arr[n];
+//        for (int i = 0; i <n;i++){
+//            System.out.print("Nhập phần tử thứ " +i+ ": ");
+//            arr[i] =sc.nextInt();
+//        }
+//        return arr;
+//    }
 
     String chuoi (){
         Scanner sc = new Scanner(System.in);

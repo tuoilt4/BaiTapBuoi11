@@ -78,7 +78,7 @@ public class test {
     public void Vd10()
     {
         String chuoia = null;
-        assertNull(chuoia);
+        assertNotNull(chuoia);
     }
 
     //  Phương thức assertTrue: đúng
